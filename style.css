@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#choices {
+    margin: 20px;
+}
+
+.choice {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 100px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.choice:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#result p {
+    margin: 5px 0;
+}
+
+#result h3 {
+    margin-top: 20px;
+    color: #007BFF;
+}
